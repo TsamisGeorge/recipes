@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes</title>
+    <title>Συνταγές</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes-page/crepe.html">Crepe</a></li>
-        <li><a href="recipes-page/caesar.html">Σαλάτα του Καίσαρα</a></li>
-        <li><a href="recipes-page/truffles.html">Τρουφάκια Banoffee</a></li>
+    <div>
+        <h1 class="heading">ΣΥΝΤΑΓΕΣ</h1>
+        <div class="searchbox-heading">Αναζητήστε την συνταγή που θέλετε</div>
+    </div>
+    <form class="search-form">
+        <input class="search-bar" type="search">
+        <button class="search-button" type="submit">Αναζήτηση</button>
+    </form>
+    <ul class="list">
+        <li><a href="recipes-page/crepe.html">
+                <figure>
+                    <img src="img/crepes.png" alt="Crepes picture" height="200" width="260">
+                    <figcaption>Crepe</figcaption>
+                </figure>
+            </a></li>
+        <li><a href="recipes-page/caesar.html">
+                <figure>
+                    <img src="img/caesars.jpg" alt="Caesar salad picture" height="200" width="260">
+                    <figcaption>Caesars Salad</figcaption>
+                </figure>
+            </a></li>
+        <li>
+            <a href="recipes-page/truffles.html">
+                <figure>
+                    <img src="img/truffles.jpg" height="200" width="260" alt="Banoffee truffles picture">
+                    <figcaption>Banoffee truffles</figcaption>
+                </figure>
+            </a>
+        </li>
     </ul>
 </body>
+
 </html>

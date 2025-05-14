@@ -1,0 +1,45 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccb59f;
+}
+
+.heading {
+    width: 300px;
+    border: 5px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.searchbox-heading{
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
+.search-form {
+    width: 200px;
+    margin: 0 auto;
+}
+.search-bar {
+    width: 130px;
+    margin-left: -22px;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+}
+
+.list li {
+    margin: 4px;
+}
+
+a {
+    color: black;
+}
