@@ -1,28 +1,60 @@
 *, ::after, ::before{
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     background-color: #eddccc;
+    margin: 4px;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    margin: 4px;
+}
+
+.page-header {
+    width: 360px;
+    margin: 21px 0;
+    margin-left: 4px;
+    font-family: 'Bradley Hand', cursive;
+}
+
+figure {
+    margin: 16px 40px;
+    width: 360px;
 }
 
 .heading {
     width: 260px;
-    border: 5px solid black;
+    border: 4px solid black;
     text-align: center;
     margin: 4px auto;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #ccb59f;
+    font-family: 'Bradley Hand', cursive;
 }
 
 h4 {
     display: inline-block;
-    padding: 5px;
-    margin: 0px;
+    padding: 3px 5px;
+    margin: 4px;
     border: 3px solid black;
 }
 
 .heading-link{
+    display: block;
+    width: 260px;
+    margin: auto;
     text-decoration: none;
     color: inherit;
+}
+
+.list {
+    margin-bottom: 8px;
+    margin-top: 4px;
+    padding-left: 40px;
 }
