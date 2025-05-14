@@ -1,11 +1,23 @@
 *, ::after, ::before{
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     background-color: #eddccc;
+    margin: 4px;
+}
+
+.page-header {
+    width: 360px;
+    margin: 21px 0;
+    margin-left: 4px;
+}
+
+figure {
+    margin: 16px 40px;
+    width: 360px;
 }
 
 .heading {
@@ -13,6 +25,9 @@ body {
     border: 5px solid black;
     text-align: center;
     margin: 4px auto;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 h4 {
@@ -23,6 +38,14 @@ h4 {
 }
 
 .heading-link{
+    display: block;
+    width: 260px;
+    margin: auto;
     text-decoration: none;
     color: inherit;
+}
+
+.list {
+    margin: 16px 0;
+    padding-left: 40px;
 }
